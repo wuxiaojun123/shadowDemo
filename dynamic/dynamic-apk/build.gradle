@@ -1,0 +1,9 @@
+plugins {
+    id 'com.android.library'
+}
+//apply plugin: 'com.tencent.shadow.internal.common-aar-settings'
+
+dependencies {
+    implementation 'com.tencent.shadow.core:utils'
+    compileOnly project(':dynamic:common')
+}

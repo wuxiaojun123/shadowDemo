@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/load-parameters" />
+            <option value="$PROJECT_DIR$/core/manager" />
+            <option value="$PROJECT_DIR$/dynamic" />
+            <option value="$PROJECT_DIR$/dynamic/common" />
+            <option value="$PROJECT_DIR$/dynamic/dynamic-apk" />
+            <option value="$PROJECT_DIR$/dynamic/dynamic-host" />
+            <option value="$PROJECT_DIR$/dynamic/dynamic-loader" />
+            <option value="$PROJECT_DIR$/dynamic/dynamic-manager" />
+            <option value="$PROJECT_DIR$/source" />
+            <option value="$PROJECT_DIR$/source/sample-constant" />
+            <option value="$PROJECT_DIR$/source/sample-host" />
+            <option value="$PROJECT_DIR$/source/sample-manager" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

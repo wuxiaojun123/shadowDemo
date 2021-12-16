@@ -1,0 +1,11 @@
+plugins {
+    id 'com.android.application'
+}
+
+
+
+dependencies {
+    implementation 'com.tencent.shadow.core:utils'
+    compileOnly project(':dynamic:common')
+    api project(':dynamic:dynamic-apk')
+}

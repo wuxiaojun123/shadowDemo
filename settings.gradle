@@ -1,0 +1,20 @@
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//        jcenter() // Warning: this repository is going to shut down soon
+//    }
+//}
+//rootProject.name = "shadowDemo1"
+include ':app'
+include ':source:sample-host'
+include ':dynamic:dynamic-host'
+include ':dynamic:dynamic-apk'
+include ':dynamic:common'
+include ':source:sample-manager'
+include ':dynamic:dynamic-manager'
+include ':dynamic:dynamic-loader'
+include ':source:sample-constant'
+include ':core:manager'
+include ':core:load-parameters'

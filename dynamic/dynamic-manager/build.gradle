@@ -1,0 +1,12 @@
+plugins {
+    id 'com.android.library'
+}
+
+dependencies {
+//    compileOnly 'com.tencent.shadow.core:common'
+//    implementation 'com.tencent.shadow.core:manager'
+    implementation project(':core:manager')
+    implementation project(':dynamic:dynamic-loader')
+    compileOnly project(':dynamic:dynamic-host')
+    compileOnly project(':dynamic:common')
+}
